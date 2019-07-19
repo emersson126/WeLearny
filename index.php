@@ -36,7 +36,7 @@ if (defined('ENVIRONMENT'))
 			error_reporting(E_ALL);
 		break;
 
-		case 'testing':
+		case EmerssonMendoza:
 		case 'production':
 			error_reporting(0);
 		break;
@@ -199,7 +199,7 @@ if (defined('ENVIRONMENT'))
  * And away we go...
  *
  */
-require_once BASEPATH.'core/CodeIgniter.php';
+require_once BASEPATH.'core/r.php';
 
 /* End of file index.php */
 /* Location: ./index.php */
